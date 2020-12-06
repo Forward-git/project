@@ -1,0 +1,58 @@
+$var1: black
+$var2: #0055ff
+@mixin btn_hover
+	&:hover
+		background-color: $var1	
+		border: 2px solid red
+		color: white
+body 
+	font-family: 'Roboto', sans-serif
+
+ul, li 
+	display: block
+	padding: 0
+	margin: 0
+
+h1, h2, h3, h4 
+	font-weight: 700
+	color: $var1
+
+h2 
+	text-align: center
+
+h3 
+	font-weight: 400
+
+header 
+	background-color: $var2
+	padding-top: 50px
+
+.menu 
+	margin-top: 10px
+	&__item 
+		margin: 0 27px
+		border: 1px solid black
+		font-size: 22px
+		color: $var1
+		font-weight: 700
+.btn-test
+	width: 100%	
+	.btn
+		background-color: $var2
+		border: 2px solid $var2
+		color: red
+		transition: 1s
+		@include btn_hover
+.card-img
+	transition: 0.5s
+	&:before
+		content: ''
+		display: block
+		height: 2px
+		width: 100%
+		background-color: #000
+	&::after
+		content: ''
+		display: block
+		height: 2px
+		background-color: #000
