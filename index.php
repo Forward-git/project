@@ -278,7 +278,7 @@ Nulla ea duis consequat eiusmod duis irure veniam dolore laborum aute consectetu
           </div>
           <div class="col-md-8">
             <div class="ml-2">
-              <h5 class="card-title">Название карточки</h5>
+              <h5 class="card-title">Название карточки 1</h5>
               <p class="card-text">This is a wider card withsupporting text below as a natural lead-i supporting text below as a natural lead-i supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
