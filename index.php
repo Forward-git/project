@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
     <link rel="stylesheet" href="css/main.css">
-    <title> Bootstrap CSS v.1</title>
+    <title> Bootstrap CSS v.1.1</title>
   </head>
   <body>
   <header>
