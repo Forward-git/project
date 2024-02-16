@@ -1,0 +1,78 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+header {
+  background-color: #0055ff;
+  padding-top: 50px;
+}
+
+.menu {
+  margin-top: 10px;
+}
+
+.menu__item {
+  margin: 0 27px;
+  border: 1px solid black;
+  font-size: 22px;
+  color: black;
+  font-weight: 700;
+}
+
+.btn-test {
+  width: 100%;
+}
+
+.btn-test .btn {
+  background-color: #0055ff;
+  border: 2px solid #0055ff;
+  color: red;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.btn-test .btn:hover {
+  background-color: black;
+  border: 2px solid red;
+  color: white;
+}
+
+.card-img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card-img:before {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #000;
+}
+
+.card-img::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: #000;
+}
+/*# sourceMappingURL=main.css.map */
